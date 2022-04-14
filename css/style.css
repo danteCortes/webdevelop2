@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#container{
+    text-align: center;
+    left: 50%;
+}
+
+#title{
+    color: blue;
+    margin-bottom: 0px;
+}
+
+#description{
+    margin-top: 0px;
+}
+
+.container-form{
+    width: 100%;
+    position: absolute;
+}
+
+#survey-form{
+    border: 1px solid #000;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    padding: 20px;
+    background-color: darkcyan;
+    text-align: start;
+}
+
+.row{
+    margin-bottom: 15px;
+}
+
+#submit{
+    border-radius: 5px;
+    background-color: green;
+    height: 30px;
+    border-color: green;
+    color: #fff;
+}

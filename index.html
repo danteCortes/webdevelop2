@@ -7,8 +7,55 @@
   </head>
 
   <body>
-    
-    <h1>Hello World!</h1>
+    <div id="container">
+      <h1 id="title">This is a Survey Form by Microverse</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <div class="container-form">
+        <form id="survey-form">
+          <div class="row">
+            <label for="name" id="name-label">Name: </label>
+            <input type="text" id="name" placeholder="Name" required>
+          </div>
+          <div class="row">
+            <label for="email" id="email-label">Email: </label>
+            <input type="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="row">
+            <label for="number" id="number-label">Age: </label>
+            <input type="number" id="number" placeholder="Number" min="10" max="70">
+          </div>
+          <div class="row">
+            <label for="dropdown">Select your profession:</label>
+            <select id="dropdown">
+              <option value>--PROFESSION--</option>
+              <option value="1">ENGINNER</option>
+              <option value="2">DOCTOR</option>
+              <option value="3">ARTIST</option>
+              <option value="4">ANOTHER</option>
+            </select>
+          </div>
+          <div class="row">
+            <label for="radio-button">Would you recommend Microverse to a friend?</label><br>
+            <input type="radio" name="remomended" value="yes">Yes <br>
+            <input type="radio" name="remomended" value="not">Not <br>
+            <input type="radio" name="remomended" value="wherever">wherever <br>
+          </div>
+          <div class="row">
+            <label for="checkbox-button">what do you want learn?</label><br>
+            <input type="checkbox" name="remomended" value="php">PHP <br>
+            <input type="checkbox" name="remomended" value="javascript">JAVASCRIPT <br>
+            <input type="checkbox" name="remomended" value="phyton">PHYTON <br>
+            <input type="checkbox" name="remomended" value="ruby">RUBY <br>
+            <input type="checkbox" name="remomended" value="css">CSS <br>
+          </div>
+          <div class="row">
+            <label for="text-area">Make us your comments</label><br>
+            <textarea cols="30" rows="5" placeholder="Comments"></textarea>
+          </div>
+          <button id="submit">Send</button>
+        </form>
+      </div>
+    </div>
 
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
